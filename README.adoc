@@ -1,0 +1,11 @@
+== Simple Python Docker project 
+
+=== build
+  $ docker build -t sampleapp .
+
+=== tag
+  $ docker tag sampleapp simpleapp:1.0
+
+=== push 
+  $ docker push sampleapp:1.0
+
